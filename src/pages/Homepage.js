@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from "../components/Header";
 
 const Homepage = () => {
   return (
     <div>
       <div>
-        <header></header>
+        <header>
+            <Header />
+        </header>
         <main>
             <section className='hero__section'>
                 <div className='sect__container'>
