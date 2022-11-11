@@ -25,6 +25,109 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
 
 
 
+/* A. Styling of the Header component */
+
+/* .header__container {
+
+} */
+
+.header__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__logoContainer {
+  width: 11rem;
+}
+
+.slider {
+  position: fixed;
+  min-width: 100%;
+  height: 100vh;
+  top: -100%;
+  background-color: #843FE8;
+  /* background-color: #404040; */
+  /* background-color: #A02279; */
+  transition: 1s ease;
+}
+
+.slider.active {
+  top: 0;
+  transition: 1s ease;
+}
+
+.slider ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider ul > .nav__middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider .nav__items {
+  margin-block: 2em;
+}
+
+.slider .nav__items .nav__text {
+  font-size: 1.25rem;
+  color: #434343;
+  font-weight: 400;
+  fill: solid;
+  line-height: 1.56rem;
+}
+
+.menu__content .menu__icon {
+  display: block;
+  color: #A02279;
+  font-size: 3.125rem;
+  cursor: pointer;
+}
+
+.nav__middle {
+  width: 100%;
+}
+
+.close__content {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.close__content .close__icon {
+  font-size: 2.5rem;
+  margin: .2em .4em 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 827px){
+
+}
+
+
+
 
 
 
