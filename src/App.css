@@ -117,6 +117,37 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 
 
+/* B. Styling of the Footer component */
+
+.sect__footer {
+  background: #1D1D1E;
+}
+
+.top__foot {
+  padding-top: 1em;
+}
+
+.top__foot .each__footContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5em;
+}
+
+.footer__img {
+  width: 10rem;
+  margin-bottom: 1em;
+}
+
+.social__icons {
+  width: .7rem;
+}
+
+.social__icons + .social__icons {
+  margin-left: 1em;
+}
+
+
+
 
 
 
