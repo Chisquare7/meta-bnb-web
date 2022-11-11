@@ -17,6 +17,12 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
   font-family: 'Red Rose', cursive;
 }
 
+.sect__container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 2em auto 0;
+}
+
 
 
 
