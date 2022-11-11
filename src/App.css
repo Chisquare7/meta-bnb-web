@@ -20,16 +20,16 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
 .sect__container {
   width: 90%;
   max-width: 1100px;
-  margin: 2em auto 0;
+  margin: 0 auto;
 }
 
 
 
 /* A. Styling of the Header component */
 
-/* .header__container {
-
-} */
+.header__container {
+  margin-top: 2em;
+}
 
 .header__flex {
   display: flex;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
 }
 
 .main__logoContainer {
-  width: 11rem;
+  width: 10rem;
 }
 
 .slider {
@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .slider .nav__items {
@@ -74,7 +75,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
 }
 
 .slider .nav__items .nav__text {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #434343;
   font-weight: 400;
   fill: solid;
@@ -86,10 +87,6 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
   color: #A02279;
   font-size: 3.125rem;
   cursor: pointer;
-}
-
-.nav__middle {
-  width: 100%;
 }
 
 .close__content {
@@ -124,6 +121,84 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
 
 @media (min-width: 827px){
 
+.header__container {
+  margin-top: 2em;
+}
+
+.header__flex {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  
+}
+
+.main__logoContainer {
+  width: 10rem;
+}
+
+.slider {
+  position: sticky;
+  min-width: unset;
+  width: 75%;
+  height: auto;
+  background-color: unset;
+  transition: unset;
+}
+
+.slider ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.slider ul > .nav__middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 75%;
+}
+
+.slider .nav__items {
+  margin-block: 0;
+}
+
+.nav__items + .nav__items {
+  margin-left: 2em;
+}
+
+.slider .nav__items .nav__text {
+  font-size: 1rem;
+  color: #434343;
+  font-weight: 400;
+  fill: solid;
+  line-height: 1.56rem;
+}
+
+.menu_content {
+  display: none;
+}
+
+.menu__content .menu__icon {
+  display: none;
+}
+
+.close__content {
+  display: none;
+  width: auto;
+}
+
+.close__content .close__icon {
+  display: none;
+  margin: 0;
+}
 }
 
 

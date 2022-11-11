@@ -45,7 +45,7 @@ const Header = () => {
 										<Link className="nav__text">Community</Link>
 									</li>
 								</div>
-								<div>
+								<div className='btn__container'>
 									<li className="nav__items">
 										<Link>
 											<button>Connect wallet</button>
