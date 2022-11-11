@@ -48,7 +48,7 @@ const Header = () => {
 								<div className='btn__container'>
 									<li className="nav__items">
 										<Link>
-											<button>Connect wallet</button>
+											<button className='btn__connect'>Connect wallet</button>
 										</Link>
 									</li>
 								</div>

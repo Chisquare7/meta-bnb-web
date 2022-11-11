@@ -13,7 +13,7 @@ img {
   max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
+h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   font-family: 'Red Rose', cursive;
 }
 
@@ -72,6 +72,19 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link {
 
 .slider .nav__items {
   margin-block: 2em;
+}
+
+.slider .btn__container .nav__items .btn__connect {
+  background-color: #A02279;
+  border: none;
+  outline: none;
+  border-radius: .625rem;
+  padding: .8em 1.5em;
+  font-size: .8rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
 .slider .nav__items .nav__text {
