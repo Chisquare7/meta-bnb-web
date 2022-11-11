@@ -10,7 +10,7 @@ const Header = () => {
 					<div>
                       <Link><img src={ metabnb_logo } alt="main metabnb logo" /></Link>
 					</div>
-					<div>
+					<nav>
 						<ul>
 							<li>
 								<Link>Home</Link>
@@ -30,7 +30,7 @@ const Header = () => {
                               <Link><button>Connect wallet</button></Link>
                             </li>
 						</ul>
-					</div>
+					</nav>
 				</div>
 			</div>
 		</div>
