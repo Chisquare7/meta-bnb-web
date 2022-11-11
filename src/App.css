@@ -140,10 +140,6 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   margin-left: 1em;
 }
 
-/* .top__foot {
-  padding-top: 1em;
-} */
-
 .top__foot .each__footContainer {
   display: flex;
   flex-direction: column;
@@ -208,6 +204,8 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 
 @media (min-width: 827px){
+
+/* A. Styling of the Header component (Desktop view) */
 
 .header__container {
   margin-top: 2em;
@@ -287,6 +285,32 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   display: none;
   margin: 0;
 }
+
+
+/* B. Styling of the Footer component (Desktop view) */
+
+
+.top__foot {
+  display: flex;
+  margin-top: 1.5em;
+}
+
+.top__foot .each__footContainer {
+  margin-top: 0em;
+}
+
+.top__foot .each__footContainer .foothead {
+  margin-bottom: .5em;
+}
+
+.each__footContainer + .each__footContainer {
+  margin-left: 7em;
+}
+
+.social__contents {
+  margin-top: 4em;
+}
+
 }
 
 
