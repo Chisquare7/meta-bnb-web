@@ -25,7 +25,7 @@ const Homepage = () => {
             </section>
             <section className='layout__two'>
                 <div className='sect__container'>
-                    <h2></h2>
+                    {/* <h2></h2> */}
                     <div></div>
                 </div>
             </section>
