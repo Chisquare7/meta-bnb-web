@@ -121,7 +121,8 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 .sect__footer {
   background: #1D1D1E;
-  
+  padding-top: 1.5em;
+
 }
 
 .footer__flex {
@@ -305,7 +306,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 }
 
 .each__footContainer + .each__footContainer {
-  margin-left: 11em;
+  margin-left: 7em;
 }
 
 .social__contents {
