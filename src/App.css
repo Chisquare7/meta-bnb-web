@@ -289,6 +289,47 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 }
 
 
+/* Styling of the Layout three section */
+
+.layout__three {
+  background: #A02279;
+  padding: 3em 0;
+}
+
+.layout__three .layout__three-left .layout__three-headings {
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 3rem; 
+}
+
+.layout__three .layout__three-left .layout__three-text {
+  margin: 1em 0;
+}
+
+.layout__three .layout__three-left .layout__three-subtext {
+  font-size: .7rem;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5rem;
+}
+
+.layout__three .layout__three-left .layout__three-btn {
+  padding: .5em 1.8em;
+  border: none;
+  border-radius: .3rem;
+  font-size: .7rem;
+  color: #A02279;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1rem;
+  margin-bottom: 3em;
+}
+
+
+
 
 
 
