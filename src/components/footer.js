@@ -9,8 +9,7 @@ import Copyright from '../assets/copyright__icon.png'
 const Footer = () => {
   return (
 		<div>
-			<section className="sect__footer">
-				<div className="sect__container">
+			<section>
 					<div className="footer__flex">
 						<div className="top__foot">
 							<div className="each__footContainer">
@@ -70,7 +69,6 @@ const Footer = () => {
 							<p className="copyright__text">2022 Metabnb</p>
 						</div>
 					</div>
-				</div>
 			</section>
 		</div>
 	);

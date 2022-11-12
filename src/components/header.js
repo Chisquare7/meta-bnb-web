@@ -15,8 +15,7 @@ const Header = () => {
 
   return (
 		<div>
-			<div className="header__container">
-				<div className="sect__container">
+			<div>
 					<div className='header__flex'>
 						<div className='main__logoContainer'>
 							<Link>
@@ -62,7 +61,6 @@ const Header = () => {
 							</ul> */}
 						</nav>
 					</div>
-				</div>
 			</div>
 		</div>
 	);

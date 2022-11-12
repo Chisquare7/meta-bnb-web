@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <div>
       <div>
-        <header>
+        <header className="header__container">
             <div className='sect__container'>
                 <Header />
             </div>
@@ -44,7 +44,7 @@ const Homepage = () => {
                 </div>
             </section>
         </main>
-        <footer>
+        <footer className="sect__footer">
             <div className='sect__container'>
                 <Footer />
             </div>
