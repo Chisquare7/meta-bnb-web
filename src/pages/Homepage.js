@@ -7,7 +7,7 @@ import metamask from '../assets/metamask__logo.png'
 import opensea from '../assets/opensea__logo.png'
 import footInit from '../assets/footinit__img.png'
 
-const Homepage = () => {
+const Homepage = ({ data }) => {
   return (
 		<div>
 			<header className="header__container">
@@ -82,7 +82,35 @@ const Homepage = () => {
 					<h2 className="layout__two-headings">
 						Inspiration for your next adventure
 					</h2>
-					<div></div>
+					<div className='place__container'>
+						{data &&
+							data?.map((item, index) => (
+								<div className='place__boxes'>
+									<div className="place__img">
+										<img
+											src={item?.placeIcon}
+											alt="This is icon of place to stay"
+											className="place__icon"
+										/>
+									</div>
+									<div className="place_flex">
+										<p className="place__text">{item?.placeName}</p>
+										<p className="place__amt">{item?.placeAmount}</p>
+									</div>
+									<div className="place_flex">
+										<p className="place__text">{item?.placeDistance}</p>
+										<p className="place__text">{item?.placePeriod}</p>
+									</div>
+									<div className="rating__content">
+										<img
+											src={item?.placeRating}
+											alt="Rating of each place"
+											className="rating__img"
+										/>
+									</div>
+								</div>
+							))}
+					</div>
 				</div>
 			</section>
 			<section className="layout__three">
