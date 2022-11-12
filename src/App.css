@@ -202,6 +202,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   font-weight: 700;
   font-style: bold;
   fill: solid;
+  text-align: center;
 }
 
 .hero__left .hero__heading .inline__text {
@@ -209,7 +210,9 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 }
 
 .hero__left .hero__subtext {
-  margin: 1.5em 0;
+  margin: 1.5em auto;
+  width: 90%;
+  text-align: center;
 }
 
 .hero__left .hero__subtext .hero__text {
@@ -223,16 +226,21 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 .hero__left .input__content {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 2em;
+  margin: 0 auto 2em;
+  width: 80%;
+  text-align: center;
 }
 
 .hero__left .input__content .search__input {
   outline: none;
   border: 1px solid #A3A3A3;
-  padding: .8em;
-  border-top-left-radius: .3rem;
-  border-bottom-left-radius: .3rem;
+  width: 100%;
+  padding: .8em 0 .8em 1em;
+  /* border-top-left-radius: .3rem;
+  border-bottom-left-radius: .3rem; */
+  border-radius: .3rem;
   font-size: .7rem;
   color: #B8B8B8;
   font-weight: 400;
@@ -243,14 +251,23 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 .hero__left .input__content .input__action {
   border: none;
   background: #A02279;
-  padding: .8em 2em;
-  border-top-right-radius: .3rem;
-  border-bottom-right-radius: .3rem;
+  width: 100%;
+  padding: .8em 0;
+  margin-top: 1em;
+  border-radius: .3rem;
+  /* border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem; */
   font-size: .8rem;
   color: #FFFFFF;
   font-weight: 400;
   font-style: normal;
   line-height: 1rem;
+}
+
+.hero__right {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
 }
 
 
@@ -302,7 +319,6 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   border-width: thin;
   border-radius: .9rem;
   flex: 25%;
-  /* text-align: center; */
   width: 80%;
   padding: .7em;
   margin-bottom: 1em;
@@ -351,11 +367,14 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   color: #FFFFFF;
   font-weight: 700;
   font-style: bold;
-  line-height: 3rem; 
+  line-height: 3rem;
+  text-align: center; 
 }
 
 .layout__three .layout__three-left .layout__three-text {
-  margin: 1em 0;
+  margin: 1em auto;
+  width: 80%;
+  text-align: center;
 }
 
 .layout__three .layout__three-left .layout__three-subtext {
@@ -366,8 +385,15 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   line-height: 1.5rem;
 }
 
+.btn__content {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .layout__three .layout__three-left .layout__three-btn {
-  padding: .5em 1.8em;
+  /* padding: .5em 1.8em; */
+  padding: .5em 0;
+  width: 100%;
   border: none;
   border-radius: .3rem;
   font-size: .7rem;
@@ -378,7 +404,11 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   margin-bottom: 3em;
 }
 
-
+.layout__three-right {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
 
 
 

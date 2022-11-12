@@ -82,10 +82,10 @@ const Homepage = ({ data }) => {
 					<h2 className="layout__two-headings">
 						Inspiration for your next adventure
 					</h2>
-					<div className='place__container'>
+					<div className="place__container">
 						{data &&
 							data?.map((item, index) => (
-								<div className='place__boxes'>
+								<div className="place__boxes">
 									<div className="place__img">
 										<img
 											src={item?.placeIcon}
@@ -125,7 +125,9 @@ const Homepage = ({ data }) => {
 									our cutomer access to loads of our exclusive services.
 								</p>
 							</div>
-							<button className="layout__three-btn">Learn more</button>
+							<div className='btn__content'>
+								<button className="layout__three-btn">Learn more</button>
+							</div>
 						</div>
 						<div className="layout__three-right">
 							<img
