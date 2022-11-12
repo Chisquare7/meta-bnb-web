@@ -93,11 +93,11 @@ const Homepage = ({ data }) => {
 											className="place__icon"
 										/>
 									</div>
-									<div className="place_flex">
+									<div className="place__flex">
 										<p className="place__text">{item?.placeName}</p>
 										<p className="place__amt">{item?.placeAmount}</p>
 									</div>
-									<div className="place_flex">
+									<div className="place__flex">
 										<p className="place__text">{item?.placeDistance}</p>
 										<p className="place__text">{item?.placePeriod}</p>
 									</div>

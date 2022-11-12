@@ -288,6 +288,56 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   text-align: center;
 }
 
+.place__container {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.place__container .place__boxes {
+  display: flex;
+  flex-direction: column;
+  border: 1px #D7D7D7 solid;
+  border-width: thin;
+  border-radius: .9rem;
+  flex: 25%;
+  /* text-align: center; */
+  width: 80%;
+  padding: .7em;
+  margin-bottom: 1em;
+}
+
+.place__container .place__boxes .place__icon {
+  width: 100%;
+}
+
+.place__container .place__boxes .rating__img {
+  width: 4rem;
+}
+
+.place__container .place__boxes .place__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.place__container .place__boxes .place__flex .place__text {
+  font-size: .6rem;
+  color: #434343;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3rem;
+}
+
+.place__container .place__boxes .place__flex .place__amt {
+  font-size: .6rem;
+  color: #434343;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 1.3rem;
+}
+
 
 /* Styling of the Layout three section */
 
