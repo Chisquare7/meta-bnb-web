@@ -7,7 +7,9 @@ const Homepage = () => {
     <div>
       <div>
         <header>
-            <Header />
+            <div className='sect__container'>
+                <Header />
+            </div>
         </header>
         <main>
             <section className='hero__section'>
@@ -43,7 +45,9 @@ const Homepage = () => {
             </section>
         </main>
         <footer>
-            <Footer />
+            <div className='sect__container'>
+                <Footer />
+            </div>
         </footer>
       </div>
     </div>
