@@ -188,6 +188,71 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 
 
+/* C. Styling of the Home Page */
+
+/* Styling of the Hero section */
+
+.hero__flex {
+  margin-top: 2.5em;
+}
+
+.hero__left .hero__heading {
+  font-size: 2rem;
+  color: #434343;
+  font-weight: 700;
+  font-style: bold;
+  fill: solid;
+}
+
+.hero__left .hero__heading .inline__text {
+  color: #A02279;
+}
+
+.hero__left .hero__subtext {
+  margin: 1.5em 0;
+}
+
+.hero__left .hero__subtext .hero__text {
+  font-size: .9rem;
+  color: #434343;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5rem;
+  fill: solid;
+}
+
+.hero__left .input__content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.hero__left .input__content .search__input {
+  outline: none;
+  border: 1px solid #A3A3A3;
+  padding: .8em;
+  border-top-left-radius: .3rem;
+  border-bottom-left-radius: .3rem;
+  font-size: .7rem;
+  color: #B8B8B8;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1rem;
+}
+
+.hero__left .input__content .input__action {
+  border: none;
+  background: #A02279;
+  padding: .8em 2em;
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  font-size: .8rem;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1rem;
+}
+
 
 
 

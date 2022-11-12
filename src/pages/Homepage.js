@@ -22,7 +22,7 @@ const Homepage = () => {
 							<h1 className="hero__heading">
 								Rent a <span className="inline__text">Place</span> away from{" "}
 								<span className="inline__text">Home</span> in the
-								<span className="inline__text">Metaverse</span>
+								<span className="inline__text"> Metaverse</span>
 							</h1>
 							<div className="hero__subtext">
 								<p className="hero__text">
