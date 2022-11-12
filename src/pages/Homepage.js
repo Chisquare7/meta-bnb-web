@@ -43,7 +43,7 @@ const Homepage = () => {
 						<div className="hero__right">
 							<img
 								src={metabnb__hero}
-								alt="Hero image of metabnb"
+								alt="Hero icon of metabnb"
 								className="hero__image"
 							/>
 						</div>
@@ -56,21 +56,21 @@ const Homepage = () => {
 						<div>
 							<img
 								src={mbtoken}
-								alt="mbtoken image"
+								alt="mbtoken icon"
 								className="layout__one-img"
 							/>
 						</div>
 						<div>
 							<img
 								src={metamask}
-								alt="metamask image"
+								alt="metamask icon"
 								className="layout__one-img"
 							/>
 						</div>
 						<div>
 							<img
 								src={opensea}
-								alt="opensea image"
+								alt="opensea icon"
 								className="layout__one-img"
 							/>
 						</div>
@@ -102,7 +102,7 @@ const Homepage = () => {
 						<div className="layout__three-right">
 							<img
 								src={footInit}
-								alt="Hero image before footer"
+								alt="Hero icon before footer"
 								className="layout__three-hero"
 							/>
 						</div>
