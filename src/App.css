@@ -254,9 +254,39 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 }
 
 
+/* Styling of the Layout one section */
+
+.layout__one {
+  margin-top: 2em;
+  background: #A02279;
+  padding: .5em 0;
+}
+
+.layout__one .layout__one-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.layout__one .layout__one-flex .layout__one-img {
+  width: 5rem;
+}
 
 
+/* Styling of the Layout two section */
 
+.layout__two {
+  margin: 2em 0;
+}
+
+.layout__two-headings {
+  font-size: 2.2rem;
+  color: #000000;
+  font-weight: 700;
+  font-style: bold;
+  line-height: 2.2rem;
+  text-align: center;
+}
 
 
 
