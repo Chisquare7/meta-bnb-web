@@ -531,6 +531,63 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 }
 
+@media (min-width: 768px) {
+  
+  /* Styling of the Hero section */
+
+  .hero__flex {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero__right {
+    margin: 0;
+    width: 40%;
+    text-align: unset;
+  }
+
+  .hero__left {
+    width: 50%;
+  }
+
+  .hero__left .hero__heading {
+    text-align: unset;
+  }
+
+  .hero__left .hero__subtext {
+    margin: 1.5em 0;
+    width: unset;
+    text-align: unset;
+  }
+
+  .hero__left .input__content {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 2em;
+    width: unset;
+    text-align: unset;
+  }
+
+  .hero__left .input__content .search__input {
+    width: 100%;
+    padding: .8em 1em;
+    border-radius: 0;
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+  }
+
+  .hero__left .input__content .input__action {
+    width: 50%;
+    padding: .8em 1.8em;
+    margin-top: 0;
+    border-radius: 0;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+
 
 
 
