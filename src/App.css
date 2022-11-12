@@ -529,6 +529,16 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   margin-top: 4em;
 }
 
+  /* Styling of layout two section */
+
+  .place__container .place__boxes {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 48%;
+    width: unset;
+    margin-bottom: 1.5em;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -585,6 +595,69 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
     border-radius: 0;
     border-top-right-radius: .3rem;
     border-bottom-right-radius: .3rem;
+  }
+
+
+  /* Styling of the Layout two section */
+
+  .place__container {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .place__container .place__boxes {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 48%;
+    width: unset;
+    margin-bottom: 1.5em;
+  }
+
+  /* Styling of the Layout three section */
+
+  .layout__three {
+    background: #A02279;
+    padding: 3em 0;
+  }
+
+  .layout__three-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .layout__three-right {
+    margin: 0;
+    width: 55%;
+    text-align: unset;
+  }
+
+  .layout__three-left {
+    width: 40%;
+  }
+
+  .layout__three .layout__three-left .layout__three-headings {
+    text-align: unset; 
+  }
+
+  .layout__three .layout__three-left .layout__three-text {
+    margin: 1em 0;
+    width: unset;
+    text-align: unset;
+  }
+
+  .btn__content {
+    margin: 2em 0 0;
+    width: unset;
+  }
+
+  .layout__three .layout__three-left .layout__three-btn {
+    padding: .5em 1.8em;
+    width: unset;
+    margin-bottom: 3em;
   }
 }
 
