@@ -1,6 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Homepage from './pages/Homepage';
+import Placepage from './pages/Placepage';
 import metatoken__rating from './assets/metatoken__rating.png'
 import metatoken__one from './assets/metatoken__one.png'
 import metatoken__two from './assets/metatoken__two.png'
@@ -226,7 +227,8 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={ <Homepage data={data} /> } />
-          <Route path='/placetostay' element={ <placeToStay items={items} /> } />
+          <Route path='/placepage' element={ <Placepage/> } />
+          {/* <Route path='/placeToStay' element={ <placeToStay items={items} /> } /> */}
         </Routes>
       </Router>
     </div>

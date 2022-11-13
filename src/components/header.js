@@ -34,7 +34,7 @@ const Header = () => {
 							<Link className="nav__text">Home</Link>
 						</li>
 						<li className="nav__items">
-							<Link className="nav__text">Place to stay</Link>
+							<Link className="nav__text" to="/Placepage" >Place to stay</Link>
 						</li>
 						<li className="nav__items">
 							<Link className="nav__text">NFTs</Link>
