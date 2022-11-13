@@ -223,16 +223,16 @@ function App() {
 	];
 
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path='/' element={ <Homepage data={data} /> } />
-          <Route path='/placepage' element={ <Placepage/> } />
-          {/* <Route path='/placeToStay' element={ <placeToStay items={items} /> } /> */}
-        </Routes>
-      </Router>
-    </div>
-  );
+		<div className="App">
+			<Router>
+				<Routes>
+					<Route path="/" element={<Homepage data={data} />} />
+					<Route path="/placepage" element={<Placepage items={items} />} />
+					{/* <Route path='/placeToStay' element={ <placeToStay items={items} /> } /> */}
+				</Routes>
+			</Router>
+		</div>
+	);
 }
 
 export default App;
