@@ -115,6 +115,21 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   margin: .2em .4em 0 0;
 }
 
+/* Styling of the modal popup */
+
+.for__modal {
+  position: relative;
+}
+
+.modal__popup {
+  height: 30vh;
+  width: 70%;
+  background-color: green;
+  position: absolute;
+  top: 250%;
+  right: 15%;
+}
+
 
 
 /* B. Styling of the Footer component */

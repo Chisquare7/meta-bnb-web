@@ -14,46 +14,85 @@ const Header = () => {
     }
 
   return (
-		
-		<div className='header__flex'>
-			<div className='main__logoContainer'>
-				<Link>
-					<img src={metabnb_logo} alt="main metabnb logo" className='metabnb__logo' />
-				</Link>
-			</div>
-			<div className="menu__content">
-				<MenuIcon className="menu__icon" onClick={showMenu} />
-			</div>
-			<nav className={active ? 'slider active' : 'slider'}>
-				<ul>
-					<div className="nav__middle">
-						<div className="close__content">
-							<CloseIcon className="close__icon" onClick={showMenu} />
+		<div className="for__modal">
+			<div className="header__flex">
+				<div className="main__logoContainer">
+					<Link>
+						<img
+							src={metabnb_logo}
+							alt="main metabnb logo"
+							className="metabnb__logo"
+						/>
+					</Link>
+				</div>
+				<div className="menu__content">
+					<MenuIcon className="menu__icon" onClick={showMenu} />
+				</div>
+				<nav className={active ? "slider active" : "slider"}>
+					<ul>
+						<div className="nav__middle">
+							<div className="close__content">
+								<CloseIcon className="close__icon" onClick={showMenu} />
+							</div>
+							<li className="nav__items">
+								<Link className="nav__text">Home</Link>
+							</li>
+							<li className="nav__items">
+								<Link className="nav__text" to="/Placepage">
+									Place to stay
+								</Link>
+							</li>
+							<li className="nav__items">
+								<Link className="nav__text">NFTs</Link>
+							</li>
+							<li className="nav__items">
+								<Link className="nav__text">Community</Link>
+							</li>
 						</div>
-						<li className="nav__items">
-							<Link className="nav__text">Home</Link>
-						</li>
-						<li className="nav__items">
-							<Link className="nav__text" to="/Placepage" >Place to stay</Link>
-						</li>
-						<li className="nav__items">
-							<Link className="nav__text">NFTs</Link>
-						</li>
-						<li className="nav__items">
-							<Link className="nav__text">Community</Link>
-						</li>
+						<div className="btn__container">
+							<li className="nav__items">
+								<Link>
+									<button className="btn__connect">Connect wallet</button>
+								</Link>
+							</li>
+						</div>
+					</ul>
+				</nav>
+			</div>
+			<div className="modal__container">
+				<div>
+					<div className="modal__popup">
+						<div className="modal__content-top">
+							<div className="modal__content-center">
+								<div className="modal-flex">
+									<h1>Connect Wallet</h1>
+									<h2>X</h2>
+								</div>
+							</div>
+						</div>
+						<div className="modal__content-bottom">
+							<div className="modal__content-center">
+								<div>
+									<p>Choose your preferred wallet:</p>
+								</div>
+								<div>
+									<div className="modal__link-flex">
+										<div></div>
+										<div></div>
+									</div>
+								</div>
+								<div>
+									<div className="modal__link-flex">
+										<div></div>
+										<div></div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div className='btn__container'>
-						<li className="nav__items">
-							<Link>
-								<button className='btn__connect'>Connect wallet</button>
-							</Link>
-						</li>
-					</div>
-				</ul>
-			</nav>
+				</div>
+			</div>
 		</div>
-
 	);
 }
 
