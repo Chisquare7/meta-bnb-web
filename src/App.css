@@ -122,12 +122,12 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 }
 
 .modal__popup {
-  height: 30vh;
-  width: 70%;
+  height: 40vh;
+  width: 80%;
   background-color: green;
   position: absolute;
   top: 250%;
-  right: 15%;
+  right: 10%;
 }
 
 
