@@ -60,31 +60,41 @@ const Header = () => {
 				</nav>
 			</div>
 			<div className="modal__container">
-				<div>
+				<div className='modal__section'>
 					<div className="modal__popup">
 						<div className="modal__content-top">
 							<div className="modal__content-center">
 								<div className="modal-flex">
-									<h1>Connect Wallet</h1>
-									<h2>X</h2>
+									<h1 className='modal__heading'>Connect Wallet</h1>
+									<h2 className='modal__close'>X</h2>
 								</div>
 							</div>
 						</div>
 						<div className="modal__content-bottom">
 							<div className="modal__content-center">
-								<div>
-									<p>Choose your preferred wallet:</p>
+								<div className='modal__subtext'>
+									<p className='modal__subhead'>Choose your preferred wallet:</p>
 								</div>
-								<div>
+								<div className="modal__link-box">
 									<div className="modal__link-flex">
-										<div></div>
-										<div></div>
+										<div>
+											<img/>
+											<h3>Metamask</h3>
+										</div>
+										<div>
+											<img/>
+										</div>
 									</div>
 								</div>
-								<div>
+								<div className="modal__link-box">
 									<div className="modal__link-flex">
-										<div></div>
-										<div></div>
+										<div>
+											<img/>
+											<h3>WalletConnect</h3>
+										</div>
+										<div>
+											<img/>
+										</div>
 									</div>
 								</div>
 							</div>
