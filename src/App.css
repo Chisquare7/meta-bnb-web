@@ -532,15 +532,15 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   margin-top: 4em;
 }
 
-.placetop__flex {
+/* .placetop__flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 90%;
-}
+} */
 
-.placetop__flex .placetop__links {
+.placetop__flex .placetop__link-flex .placetop__links {
   font-size: .9rem;
   color: #434343;
   font-weight: 400;
@@ -562,7 +562,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   border-width: thin;
   outline: none;
   padding: .7em .8em;
-  background-image: url(./assets/location__icon.png);
+  /* background-image: url(./assets/location__icon.png); */
   background-repeat: no-repeat;
   background-position-x: 5.2rem;
   background-position-y: center;

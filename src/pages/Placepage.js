@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import { Link } from 'react-router-dom'
+import Location__icon from '../assets/location__icon.png'
 
 const Placepage = ({ items }) => {
   return (
@@ -14,15 +15,24 @@ const Placepage = ({ items }) => {
 			<section className="placetop__section">
 				<div className="sect__container">
 					<div className="placetop__flex">
-						<Link className="placetop__links">Restaurant</Link>
-						<Link className="placetop__links">Cottage</Link>
-						<Link className="placetop__links">Castle</Link>
-						<Link className="placetop__links">fantasy city</Link>
-						<Link className="placetop__links">beach</Link>
-						<Link className="placetop__links">Carbins</Link>
-						<Link className="placetop__links">Off-grid</Link>
-						<Link className="placetop__links">Farm</Link>
-						<input type="text" placeholder="Location" />
+						<div className="placetop__link-flex">
+							<Link className="placetop__links">Restaurant</Link>
+							<Link className="placetop__links">Cottage</Link>
+							<Link className="placetop__links">Castle</Link>
+							<Link className="placetop__links">fantasy city</Link>
+						</div>
+						<div className="placetop__link-flex">
+							<Link className="placetop__links">beach</Link>
+							<Link className="placetop__links">Carbins</Link>
+							<Link className="placetop__links">Off-grid</Link>
+							<Link className="placetop__links">Farm</Link>
+						</div>
+						<div className='place__location-content'>
+              <input type="text" placeholder="Location" />
+              <span> 
+                <img src={ Location__icon } alt='Location Icon'  />
+              </span>
+						</div>
 					</div>
 				</div>
 			</section>
