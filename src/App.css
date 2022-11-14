@@ -44,8 +44,9 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 .slider {
   position: fixed;
   min-width: 100%;
-  height: 100vh;
+  height: 40vh;
   top: -100%;
+  left: 0;
   background-color: #843FE8;
   /* background-color: #404040; */
   /* background-color: #A02279; */
@@ -71,7 +72,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 }
 
 .slider .nav__items {
-  margin-block: 2em;
+  margin-block: .4em;
 }
 
 .slider .btn__container .nav__items .btn__connect {
@@ -100,6 +101,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   color: #A02279;
   font-size: 3.125rem;
   cursor: pointer;
+  /* z-index: -100; */
 }
 
 .close__content {
@@ -121,26 +123,22 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   position: relative;
 }
 
-.home__overall {
-  position: relative;
-}
-
-.modal__section {
+.modal__overlay {
   background-color: rgba(64, 64, 64, 0.3);
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 0;
 }
 
 .modal__popup {
   height: 37vh;
   width: 80%;
-  background-color: green;
-  /* background-color: #FFFFFF; */
-  position: absolute;
-  top: 250%;
-  right: 10%;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 40%;
+  left: 10%;
   border-radius: .7rem;
 }
 
@@ -579,6 +577,15 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 
 @media (min-width: 768px) {
+
+  /* Styling of the modal popup */
+
+  .modal__popup {
+  width: 55%;
+  top: 40%;
+  left: 25%;
+  
+  }
   
   /* Styling of the Hero section */
 
@@ -782,6 +789,14 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   display: none;
   margin: 0;
 }
+
+/* Styling of the modal popup */
+  
+  .modal__popup {
+  width: 50%;
+  top:26%;
+  left: 25%;
+  }
 
 
 /* B. Styling of the Footer component (Desktop view) */
