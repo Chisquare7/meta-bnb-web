@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import { Link } from 'react-router-dom'
 import Location__icon from '../assets/location__icon.png'
+import Dropdown from '../components/Dropdown'
 
 const Placepage = ({ items }) => {
   return (
@@ -11,7 +12,8 @@ const Placepage = ({ items }) => {
 				<div className="sect__container">
 					<Header />
 				</div>
-			</header>
+      </header>
+      <Dropdown />
 			<section className="placetop__section">
 				<div className="sect__container">
 					<div className="placetop__flex">
