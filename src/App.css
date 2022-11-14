@@ -540,6 +540,11 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   width: 90%;
 } */
 
+.placetop__flex .placetop__link-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .placetop__flex .placetop__link-flex .placetop__links {
   font-size: .9rem;
   color: #434343;
@@ -549,25 +554,41 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   fill: solid;
 }
 
-.placetop__flex > input {
+.placetop__flex .place__location-content {
+  position: relative;
+}
+
+.placetop__flex .place__location-content .location__icon-content {
+  position: absolute;
+  right: 4%;
+  top: 30%;
+}
+
+.placetop__flex .place__location-content .location__icon {
+  width: 1rem;
+}
+
+.placetop__flex .place__location-content .place__location-field {
   font-size: .8rem;
   color: #333333;
   font-weight: 400;
   font-style: normal;
   line-height: 1rem;
   fill: solid;
-  width: 15%;
+  width: 100%;
   border-radius: .5rem;
   border: 1px solid #B4B4B4;
   border-width: thin;
   outline: none;
   padding: .7em .8em;
   /* background-image: url(./assets/location__icon.png); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position-x: 5.2rem;
   background-position-y: center;
-  background-size: 1rem;
+  background-size: 1rem; */
 }
+
+
 
 .placemiddle__section {
   margin: 2em 0;
