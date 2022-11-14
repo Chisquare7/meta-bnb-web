@@ -27,11 +27,15 @@ const Placepage = ({ items }) => {
 							<Link className="placetop__links">Off-grid</Link>
 							<Link className="placetop__links">Farm</Link>
 						</div>
-						<div className='place__location-content'>
-              <input type="text" placeholder="Location" />
-              <span> 
-                <img src={ Location__icon } alt='Location Icon'  />
-              </span>
+						<div className="place__location-content">
+							<input
+								type="text"
+								placeholder="Location"
+								className="place__location-field"
+							/>
+							<span className='location__icon-content'>
+								<img src={Location__icon} alt="Location Icon" className='location__icon' />
+							</span>
 						</div>
 					</div>
 				</div>
