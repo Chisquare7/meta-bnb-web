@@ -13,11 +13,6 @@ class Dropdown extends React.Component {
 		this.setState({ value: event.target.value });
 	}
 
-	handleSubmit(event) {
-		alert("Your favorite flavor is: " + this.state.value);
-		event.preventDefault();
-	}
-
 	render() {
 		return (
 			<select value={this.state.value} onChange={this.handleChange}>

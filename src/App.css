@@ -13,7 +13,7 @@ img {
   max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
+h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button, option {
   font-family: 'Red Rose', cursive;
 }
 
@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   /* background-color: #404040; */
   /* background-color: #A02279; */
   transition: 1s ease;
+  z-index: 1;
 }
 
 .slider.active {
@@ -532,20 +533,21 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   margin-top: 4em;
 }
 
-/* .placetop__flex {
+.placetop__flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   width: 90%;
-} */
+}
 
 .placetop__flex .placetop__link-flex {
-  display: flex;
+  /* display: flex; */
+  display: none;
   justify-content: space-between;
 }
 
-.placetop__flex .placetop__link-flex .placetop__links {
+.placetop__flex .placetop__link-flex .placetop__links,
+select option .placetop__links {
   font-size: .9rem;
   color: #434343;
   font-weight: 400;
@@ -556,6 +558,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 .placetop__flex .place__location-content {
   position: relative;
+  width: 33%;
 }
 
 .placetop__flex .place__location-content .location__icon-content {
@@ -575,7 +578,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   font-style: normal;
   line-height: 1rem;
   fill: solid;
-  width: 100%;
+  max-width: 100%;
   border-radius: .5rem;
   border: 1px solid #B4B4B4;
   border-width: thin;

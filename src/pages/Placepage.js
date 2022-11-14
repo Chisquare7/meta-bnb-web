@@ -12,18 +12,18 @@ const Placepage = ({ items }) => {
 				<div className="sect__container">
 					<Header />
 				</div>
-      </header>
-      <Dropdown />
+			</header>
 			<section className="placetop__section">
 				<div className="sect__container">
 					<div className="placetop__flex">
+						<div>
+							<Dropdown />
+						</div>
 						<div className="placetop__link-flex">
 							<Link className="placetop__links">Restaurant</Link>
 							<Link className="placetop__links">Cottage</Link>
 							<Link className="placetop__links">Castle</Link>
 							<Link className="placetop__links">fantasy city</Link>
-						</div>
-						<div className="placetop__link-flex">
 							<Link className="placetop__links">beach</Link>
 							<Link className="placetop__links">Carbins</Link>
 							<Link className="placetop__links">Off-grid</Link>
@@ -35,8 +35,12 @@ const Placepage = ({ items }) => {
 								placeholder="Location"
 								className="place__location-field"
 							/>
-							<span className='location__icon-content'>
-								<img src={Location__icon} alt="Location Icon" className='location__icon' />
+							<span className="location__icon-content">
+								<img
+									src={Location__icon}
+									alt="Location Icon"
+									className="location__icon"
+								/>
 							</span>
 						</div>
 					</div>
