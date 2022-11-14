@@ -1,18 +1,18 @@
-import React from 'react'
-import Footer from '../components/Footer';
-import Header from "../components/Header";
-import metabnb__hero from '../assets/metabnb__hero.png'
-import mbtoken from '../assets/mbtoken__logo.png'
-import metamask from '../assets/metamask__logo.png'
-import opensea from '../assets/opensea__logo.png'
-import footInit from '../assets/footinit__img.png'
+import React from "react";
+import FooterBar from "../components/FooterBar";
+import HeaderBar from "../components/HeaderBar";
+import metabnb__hero from "../assets/metabnb__hero.png";
+import mbtoken from "../assets/mbtoken__logo.png";
+import metamask from "../assets/metamask__logo.png";
+import opensea from "../assets/opensea__logo.png";
+import footInit from "../assets/footinit__img.png";
 
 const Homepage = ({ data }) => {
-  return (
-		<div className='home__overall'>
+	return (
+		<div className="home__overall">
 			<header className="header__container">
 				<div className="sect__container">
-					<Header />
+					<HeaderBar />
 				</div>
 			</header>
 			<section className="hero__section">
@@ -98,8 +98,12 @@ const Homepage = ({ data }) => {
 										<p className="place__amt">{item?.placeAmount}</p>
 									</div>
 									<div className="place__flex">
-										<p className="place__text place__distance">{item?.placeDistance}</p>
-										<p className="place__text place__period">{item?.placePeriod}</p>
+										<p className="place__text place__distance">
+											{item?.placeDistance}
+										</p>
+										<p className="place__text place__period">
+											{item?.placePeriod}
+										</p>
 									</div>
 									<div className="rating__content">
 										<img
@@ -125,7 +129,7 @@ const Homepage = ({ data }) => {
 									our cutomer access to loads of our exclusive services.
 								</p>
 							</div>
-							<div className='btn__content'>
+							<div className="btn__content">
 								<button className="layout__three-btn">Learn more</button>
 							</div>
 						</div>
@@ -141,11 +145,11 @@ const Homepage = ({ data }) => {
 			</section>
 			<footer className="sect__footer">
 				<div className="sect__container">
-					<Footer />
+					<FooterBar />
 				</div>
 			</footer>
 		</div>
 	);
-}
+};
 
-export default Homepage
+export default Homepage;

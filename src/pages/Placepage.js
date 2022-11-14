@@ -1,22 +1,22 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import { Link } from 'react-router-dom'
-import Location__icon from '../assets/location__icon.png'
-import Dropdown from '../components/Dropdown'
+import React from "react";
+import FooterBar from "../components/FooterBar";
+import HeaderBar from "../components/HeaderBar";
+import { Link } from "react-router-dom";
+import Location__icon from "../assets/location__icon.png";
+import Dropdown from "../components/Dropdown";
 
 const Placepage = ({ items }) => {
-  return (
+	return (
 		<div>
 			<header className="header__container">
 				<div className="sect__container">
-					<Header />
+					<HeaderBar />
 				</div>
 			</header>
 			<section className="placetop__section">
 				<div className="sect__container">
 					<div className="placetop__flex">
-						<div className='dropdown__main'>
+						<div className="dropdown__main">
 							<Dropdown />
 						</div>
 						<div className="placetop__link-flex">
@@ -81,11 +81,11 @@ const Placepage = ({ items }) => {
 			</section>
 			<footer className="sect__footer">
 				<div className="sect__container">
-					<Footer />
+					<FooterBar />
 				</div>
 			</footer>
 		</div>
 	);
-}
+};
 
-export default Placepage
+export default Placepage;

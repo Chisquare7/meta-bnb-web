@@ -6,7 +6,7 @@ import Instagram from '../assets/instagram__icon.png'
 import Twitter from '../assets/twitter__icon.png'
 import Copyright from '../assets/copyright__icon.png'
 
-const Footer = () => {
+const FooterBar = () => {
   return (
 		<div className="footer__flex">
 			<div className="top__foot">
@@ -70,4 +70,4 @@ const Footer = () => {
 	);
 }
 
-export default Footer
+export default FooterBar

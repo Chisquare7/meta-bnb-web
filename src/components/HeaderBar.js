@@ -6,7 +6,7 @@ import metabnb_logo from '../assets/metabnb__logo.png'
 import Modal from './Modal';
 
 
-const Header = () => {
+const HeaderBar = () => {
 
 
     const [active, setActive] = useState(false);
@@ -75,4 +75,4 @@ const Header = () => {
 	);
 }
 
-export default Header
+export default HeaderBar
