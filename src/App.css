@@ -578,16 +578,27 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 
 
+@media (min-width: 321px),(min-width: 480px){
+  /* Styling of the modal popup */
+
+  .modal__popup {
+  width: 80%;
+  top: 40%;
+  left: 10%;
+  
+  }
+}
 
 
-@media (min-width: 768px) {
+
+@media (min-width: 481px),(min-width: 768px) {
 
   /* Styling of the modal popup */
 
   .modal__popup {
-  width: 55%;
+  width: 60%;
   top: 40%;
-  left: 25%;
+  left: 20%;
   
   }
   
@@ -711,7 +722,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 
 
-@media (min-width: 827px){
+@media (min-width: 769px), (min-width: 827px){
 
 /* A. Styling of the Header component (Desktop view) */
 
@@ -835,7 +846,16 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 
 
-@media (min-width: 850px){
+@media (min-width: 769px),(min-width: 1024px){
+
+  /* Styling of the modal popup */
+  
+  .modal__popup {
+    width: 45%;
+    top:31%;
+    left: 30%;
+  }
+
   /* Styling of layout two section */
 
   .place__container {
@@ -852,6 +872,18 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
     flex: 0 1 23%;
     width: unset;
     margin-bottom: 1.5em;
+  }
+}
+
+@media (min-width: 1025px),(min-width: 1200px), (min-width: 2000px) {
+  
+  /* Styling of the modal popup */
+  
+  .modal__popup {
+    height: 37vh;
+    width: 45%;
+    top:31%;
+    left: 30%;
   }
 }
 

@@ -21,7 +21,7 @@ const Header = () => {
 		<div className="for__modal">
 			<div className="header__flex">
 				<div className="main__logoContainer">
-					<Link>
+					<Link to="/">
 						<img
 							src={metabnb_logo}
 							alt="main metabnb logo"
@@ -39,7 +39,9 @@ const Header = () => {
 								<CloseIcon className="close__icon" onClick={showMenu} />
 							</div>
 							<li className="nav__items">
-								<Link className="nav__text">Home</Link>
+								<Link className="nav__text" to="/">
+									Home
+								</Link>
 							</li>
 							<li className="nav__items">
 								<Link className="nav__text" to="/Placepage">
@@ -56,7 +58,12 @@ const Header = () => {
 						<div className="btn__container">
 							<li className="nav__items">
 								<Link>
-									<button className="btn__connect" onClick={() => setOpenModal(true)}>Connect wallet</button>
+									<button
+										className="btn__connect"
+										onClick={() => setOpenModal(true)}
+									>
+										Connect wallet
+									</button>
 								</Link>
 							</li>
 						</div>
