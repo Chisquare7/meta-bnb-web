@@ -541,7 +541,6 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button, option {
 }
 
 .placetop__flex .placetop__link-flex {
-  /* display: flex; */
   display: none;
   justify-content: space-between;
 }
@@ -873,6 +872,25 @@ select option .placetop__links {
 
 
 @media (min-width: 769px),(min-width: 1024px){
+
+  .placetop__flex {
+    width: 95%;
+  }
+
+  .placetop__flex .placetop__link-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 77%;
+  }
+
+  .dropdown__main {
+    display: none;
+  }
+
+  .placetop__flex .place__location-content {
+    width: 20%;
+  }
 
   /* Styling of the modal popup */
   

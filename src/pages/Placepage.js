@@ -16,7 +16,7 @@ const Placepage = ({ items }) => {
 			<section className="placetop__section">
 				<div className="sect__container">
 					<div className="placetop__flex">
-						<div>
+						<div className='dropdown__main'>
 							<Dropdown />
 						</div>
 						<div className="placetop__link-flex">
