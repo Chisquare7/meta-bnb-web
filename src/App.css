@@ -96,12 +96,15 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   line-height: 1.56rem;
 }
 
+.slider .nav__items .nav__text:hover {
+  color: #FFFFFF;
+}
+
 .menu__content .menu__icon {
   display: block;
   color: #A02279;
   font-size: 3.125rem;
   cursor: pointer;
-  /* z-index: -100; */
 }
 
 .close__content {
@@ -133,7 +136,8 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 }
 
 .modal__popup {
-  height: 37vh;
+  /* height: 37vh; */
+  height: 37%;
   width: 80%;
   background-color: #FFFFFF;
   position: fixed;
@@ -770,6 +774,10 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
   font-weight: 400;
   fill: solid;
   line-height: 1.56rem;
+}
+
+.slider .nav__items .nav__text:hover {
+  color: #A02279;
 }
 
 .menu_content {
