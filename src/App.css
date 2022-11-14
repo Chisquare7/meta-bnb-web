@@ -822,8 +822,9 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 
 .top__foot {
+  width: 90%;
   display: flex;
-  /* margin-top: 1.5em; */
+  justify-content: space-between;
 }
 
 .top__foot .each__footContainer {
@@ -832,10 +833,6 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
 
 .top__foot .each__footContainer .foothead {
   margin-bottom: .5em;
-}
-
-.each__footContainer + .each__footContainer {
-  margin-left: 7em;
 }
 
 .social__contents {
