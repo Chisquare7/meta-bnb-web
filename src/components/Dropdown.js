@@ -15,8 +15,8 @@ class Dropdown extends React.Component {
 
 	render() {
 		return (
-			<select value={this.state.value} onChange={this.handleChange}>
-				<option value="Restaurant">
+			<select value={this.state.value} onChange={this.handleChange} className='dropdown__container'>
+				<option value="Restaurant" className='dropdown__content'>
 					<Link className="placetop__links">Restaurant</Link>
 				</option>
 				<option value="Cottage">

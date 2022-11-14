@@ -537,7 +537,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button, option {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
 }
 
 .placetop__flex .placetop__link-flex {
@@ -584,14 +584,19 @@ select option .placetop__links {
   border-width: thin;
   outline: none;
   padding: .7em .8em;
-  /* background-image: url(./assets/location__icon.png); */
-  /* background-repeat: no-repeat;
-  background-position-x: 5.2rem;
-  background-position-y: center;
-  background-size: 1rem; */
 }
 
+.dropdown__container {
+  border: 1px solid #B4B4B4;
+  border-radius: .5rem;
+  border-width: thin;
+  padding: .7em .8em;
+  outline: none;
+}
 
+/* .dropdown__container .dropdown__content:active {
+  background-color: #A02279;
+} */
 
 .placemiddle__section {
   margin: 2em 0;
