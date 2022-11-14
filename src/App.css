@@ -395,7 +395,9 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button, option {
 .layout__one .layout__one-flex {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .layout__one .layout__one-flex .layout__one-img {
@@ -684,6 +686,12 @@ select option .placetop__links {
     border-bottom-right-radius: .3rem;
   }
 
+  /* Styling of layout one section */
+
+  .layout__one .layout__one-flex .layout__one-img {
+    width: 8rem;
+  }
+
 
   /* Styling of the Layout two section */
 
@@ -898,6 +906,13 @@ select option .placetop__links {
     width: 45%;
     top:31%;
     left: 30%;
+  }
+
+
+  /* Styling of layout one section */
+
+  .layout__one .layout__one-flex .layout__one-img {
+    width: 8rem;
   }
 
   /* Styling of layout two section */
