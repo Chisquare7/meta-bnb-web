@@ -9,7 +9,7 @@ import footInit from '../assets/footinit__img.png'
 
 const Homepage = ({ data }) => {
   return (
-		<div>
+		<div className='home__overall'>
 			<header className="header__container">
 				<div className="sect__container">
 					<Header />
