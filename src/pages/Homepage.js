@@ -98,8 +98,8 @@ const Homepage = ({ data }) => {
 										<p className="place__amt">{item?.placeAmount}</p>
 									</div>
 									<div className="place__flex">
-										<p className="place__text">{item?.placeDistance}</p>
-										<p className="place__text">{item?.placePeriod}</p>
+										<p className="place__text place__distance">{item?.placeDistance}</p>
+										<p className="place__text place__period">{item?.placePeriod}</p>
 									</div>
 									<div className="rating__content">
 										<img

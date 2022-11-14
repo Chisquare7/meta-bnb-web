@@ -870,6 +870,10 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button {
     width: unset;
     margin-bottom: 1.5em;
   }
+
+  /* .place__boxes .place__period, .place__boxes .place__distance {
+    white-space: nowrap;
+  } */
 }
 
 @media (min-width: 1025px),(min-width: 1200px), (min-width: 2000px) {
