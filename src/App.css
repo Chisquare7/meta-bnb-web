@@ -542,7 +542,7 @@ h1, h2, h3, h4, h5, h6, p, input, span, ul, li, Link, button, option {
 
 .placetop__flex .placetop__link-flex .placetop__links,
 select option .placetop__links {
-  font-size: .9rem;
+  font-size: 1.1rem;
   color: #434343;
   font-weight: 400;
   font-style: normal;
